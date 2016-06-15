@@ -1,0 +1,10 @@
+F:\DEMO\Foyerry\Foyerry.Server.Demo\Foyerry.Server.Common\bin\Release\Foyerry.Server.Common.dll
+F:\DEMO\Foyerry\Foyerry.Server.Demo\Foyerry.Server.Common\bin\Release\Foyerry.Server.Common.pdb
+F:\DEMO\Foyerry\Foyerry.Server.Demo\Foyerry.Server.Common\bin\Release\Common.Logging.Core.dll
+F:\DEMO\Foyerry\Foyerry.Server.Demo\Foyerry.Server.Common\bin\Release\Common.Logging.dll
+F:\DEMO\Foyerry\Foyerry.Server.Demo\Foyerry.Server.Common\bin\Release\Common.Logging.pdb
+F:\DEMO\Foyerry\Foyerry.Server.Demo\Foyerry.Server.Common\bin\Release\Common.Logging.xml
+F:\DEMO\Foyerry\Foyerry.Server.Demo\Foyerry.Server.Common\bin\Release\Common.Logging.Core.pdb
+F:\DEMO\Foyerry\Foyerry.Server.Demo\Foyerry.Server.Common\bin\Release\Common.Logging.Core.xml
+F:\DEMO\Foyerry\Foyerry.Server.Demo\Foyerry.Server.Common\obj\Release\Foyerry.Server.Common.dll
+F:\DEMO\Foyerry\Foyerry.Server.Demo\Foyerry.Server.Common\obj\Release\Foyerry.Server.Common.pdb
