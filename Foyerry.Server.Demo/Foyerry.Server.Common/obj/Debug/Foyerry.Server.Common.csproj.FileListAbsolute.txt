@@ -9,3 +9,14 @@ F:\DEMO\Foyerry\Foyerry.Server.Demo\Foyerry.Server.Common\bin\Debug\Common.Loggi
 F:\DEMO\Foyerry\Foyerry.Server.Demo\Foyerry.Server.Common\obj\Debug\Foyerry.Server.Common.csprojResolveAssemblyReference.cache
 F:\DEMO\Foyerry\Foyerry.Server.Demo\Foyerry.Server.Common\obj\Debug\Foyerry.Server.Common.dll
 F:\DEMO\Foyerry\Foyerry.Server.Demo\Foyerry.Server.Common\obj\Debug\Foyerry.Server.Common.pdb
+F:\DEMO\Foyerry\Web.Demo\Foyerry.Server.Demo\Foyerry.Server.Common\bin\Debug\Foyerry.Server.Common.dll
+F:\DEMO\Foyerry\Web.Demo\Foyerry.Server.Demo\Foyerry.Server.Common\bin\Debug\Foyerry.Server.Common.pdb
+F:\DEMO\Foyerry\Web.Demo\Foyerry.Server.Demo\Foyerry.Server.Common\bin\Debug\Common.Logging.Core.dll
+F:\DEMO\Foyerry\Web.Demo\Foyerry.Server.Demo\Foyerry.Server.Common\bin\Debug\Common.Logging.dll
+F:\DEMO\Foyerry\Web.Demo\Foyerry.Server.Demo\Foyerry.Server.Common\bin\Debug\Common.Logging.pdb
+F:\DEMO\Foyerry\Web.Demo\Foyerry.Server.Demo\Foyerry.Server.Common\bin\Debug\Common.Logging.xml
+F:\DEMO\Foyerry\Web.Demo\Foyerry.Server.Demo\Foyerry.Server.Common\bin\Debug\Common.Logging.Core.pdb
+F:\DEMO\Foyerry\Web.Demo\Foyerry.Server.Demo\Foyerry.Server.Common\bin\Debug\Common.Logging.Core.xml
+F:\DEMO\Foyerry\Web.Demo\Foyerry.Server.Demo\Foyerry.Server.Common\obj\Debug\Foyerry.Server.Common.csprojResolveAssemblyReference.cache
+F:\DEMO\Foyerry\Web.Demo\Foyerry.Server.Demo\Foyerry.Server.Common\obj\Debug\Foyerry.Server.Common.dll
+F:\DEMO\Foyerry\Web.Demo\Foyerry.Server.Demo\Foyerry.Server.Common\obj\Debug\Foyerry.Server.Common.pdb

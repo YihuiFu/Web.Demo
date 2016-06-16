@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AOP.cs" />
+    <Compile Include="Dt2List.cs" />
     <Compile Include="ICache.cs" />
     <Compile Include="ILogger.cs" />
     <Compile Include="Logger.cs" />

@@ -14,6 +14,10 @@ namespace Foyerry.Server.Common
         {
             _log.Info("测试其他类库");
             Logger.Instance.Write("新的测试日志记录",MessageType.Info);
+            AOP.Define.Do(() =>
+            {
+                
+            });
         }
     }
 }
