@@ -24,8 +24,11 @@ namespace Foyerry.Server.Web.Api
             // 有关详细信息，请参阅: http://www.asp.net/web-api
             config.EnableSystemDiagnosticsTracing();
 
-            //  config.Formatters.JsonFormatter.SupportedMediaTypes.Add(new MediaTypeHeaderValue("text/html"));
-            ConfigureApi(config);
+            config.Formatters.JsonFormatter.SupportedMediaTypes.Add(new MediaTypeHeaderValue("text/html"));
+            //时间去掉UTC
+            GlobalConfiguration.Configuration.Formatters.JsonFormatter.SerializerSettings.Converters.Add(new Newtonsoft.Json.Converters.IsoDateTimeConverter { DateTimeFormat = "yyyy-MM-dd HH:mm:ss" });
+
+            // ConfigureApi(config);
 
             // routes config
             config.Routes.MapHttpRoute(
@@ -36,7 +39,7 @@ namespace Foyerry.Server.Web.Api
                 controller = "User",
                 action = "Detail"
             },
-            constraints: new  { id=@"[3-9]{1,200}" }
+            constraints: new { id = @"[3-9]{1,200}" }
         );
 
             config.Routes.MapHttpRoute(
@@ -44,15 +47,6 @@ namespace Foyerry.Server.Web.Api
                 routeTemplate: "{controller}/{action}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
-
-            //config.Routes.MapHttpRoute(
-            // name: EnumRoute资讯.指南详细页.ToString(),
-            // url: "news/zhinan/{Search.PYCode}/{Search.ID}.shtml",
-            // defaults: new
-            // {
-            //     controller = "News",
-            //     action = "GuidDetail"
-            // }
 
 
         }
