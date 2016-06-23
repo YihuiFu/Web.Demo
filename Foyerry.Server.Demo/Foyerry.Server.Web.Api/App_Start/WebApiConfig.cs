@@ -40,7 +40,7 @@ namespace Foyerry.Server.Web.Api
                 action = "Detail"
             },
             constraints: new { id = @"[3-9]{1,200}" }
-        );
+            );
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",

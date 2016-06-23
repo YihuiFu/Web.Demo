@@ -6,6 +6,7 @@ using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using Foyerry.Server.Demo.Filters;
 
 namespace Foyerry.Server.Demo
 {
@@ -23,6 +24,14 @@ namespace Foyerry.Server.Demo
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             AuthConfig.RegisterAuth();
+
+            RegisterGlobalFilters(GlobalFilters.Filters);
+        }
+
+        public static void RegisterGlobalFilters(GlobalFilterCollection filters)
+        {
+            filters.Add(new GlobalExceptionLogAttribute());
+            filters.Add(new HandleErrorAttribute());
         }
     }
 }
